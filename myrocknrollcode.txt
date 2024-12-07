@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock N' Roll Haven</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .title {
+            font-size: 3.5rem;
+            margin-top: 20px;
+            color: white;
+        }
+        .logo {
+            width: 200px;
+            margin: 20px auto;
+        }
+        .subtitle {
+            font-size: 2rem;
+            margin: 60px 0 30px 0;
+            color: #ffffff;
+        }
+        .audio-player {
+            margin: 30px 0;
+        }
+        .content-section {
+            margin: 20px 0;
+        }
+        .image {
+            width: 300px;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+        .paragraph {
+            margin: 20px auto;
+            width: 80%;
+            line-height: 1.6;
+        }
+        .thank-you {
+            margin-top: 50px;
+            font-size: 1.5rem;
+            color: #0c090a;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main Title -->
+    <h1 class="title">Welcome the Haven of Rock N' Roll!</h1>
+
+    <!-- Logo -->
+    <img src="Rey Rocks/reyrockslogo.jpg" alt="Rock N' Roll Logo" class="logo">
+
+    <!-- Subtitle -->
+    <h2 class="subtitle">ROCK N' ROLL!</h2>
+
+    <!-- Audio Player -->
+    <div class="audio-player">
+        <audio controls>
+            <source src="Rey Rocks/Kiss - I Was Made For Loving You (Lyrics) _ I was made for lovin' you, baby [TikTok Song].mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!-- Content Sections -->
+    <div class="content-section">
+        <img src="Rey Rocks/LONG LIVE ROCK.jpg" alt="Rock Image 1" class="image">
+        <p class="paragraph">This is the first section about rock and roll culture. Embrace the spirit and let the music take control!</p>
+    </div>
+
+    <div class="content-section">
+        <img src="Rey Rocks/download.jpg" alt="Rock Image 2" class="image">
+        <p class="paragraph">Rock and roll is more than music; it's a way of life. Channel the power of the electric guitar and feel alive!</p>
+    </div>
+
+    <div class="content-section">
+        <img src="Rey Rocks/reyrockspic2.jpg" alt="Rock Image 3" class="image">
+        <p class="paragraph">Thank you for being part of the rock revolution. Keep the spirit alive with every beat and chord!</p>
+    </div>
+
+    <!-- Thank You Message -->
+    <div class="thank-you">
+        Thank you for visiting my website! Stay loud and proud. - Rey Babz🤘
+    </div>
+</body>
+</html>
